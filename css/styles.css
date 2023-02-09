@@ -1,0 +1,125 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-family: 'Montserrat',sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+    font-style: oblique;
+}
+nav{
+    position: sticky;
+}
+#title{
+    background-color: #ff4c68;
+    padding: 1% 10%;
+    position: relative;
+}
+.intro{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    padding-top:2.5rem;
+}
+.container-fluid{
+    padding: 3% 15%;
+
+}
+.image-ip{
+    padding-top: 2.5rem;
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.nav-item{
+    padding: 0 18px;
+    font-size: large;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 1% 5%;
+}
+.icon-new{
+    color: #ef8172;
+    padding: 5%;
+}
+.icon-new:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+.dog-img{
+    border-radius: 50%;
+    padding-top: 4% ;
+    padding-right: 3%;
+    width: 20%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 6% 10%;
+}
+.some{
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+.carousel-item{
+    position: relative;
+    padding: 7% 15%;
+}
+.cta-heading{
+    font-size: 3.5rem;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+#pricing{
+    text-align: center;
+    padding: 12rem;
+}
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    padding: 7% 15%;
+    text-align: center;
+}
+.pla{
+    margin:10px 20px;
+}
+.card{
+    margin: 3rem;
+    
+}
+@media (max-width:1080px){
+    .image-ip{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+}
